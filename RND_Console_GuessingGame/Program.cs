@@ -38,6 +38,7 @@ namespace Random_Guesser
                     Console.WriteLine("Not a number");
                 }
             }
+            Console.ReadLine();
         }
     }
 }
