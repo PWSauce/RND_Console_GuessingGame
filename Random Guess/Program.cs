@@ -6,11 +6,10 @@ namespace Random_Guesser
     {
         static void Main(string[] args)
         {
-            Random rnd = new Random();
             int guess = 0;
             int numOfGuesses = 0;
 
-            int rand = rnd.Next(1, 101);
+            int rand =new Random().Next(1, 101);
 
             while (guess != rand)
             {
