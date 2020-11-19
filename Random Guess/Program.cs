@@ -9,7 +9,7 @@ namespace Random_Guesser
             int guess = 0;
             int numOfGuesses = 0;
 
-            int rand =new Random().Next(1, 101);
+            int rand = new Random().Next(1, 101);
 
             while (guess != rand)
             {
